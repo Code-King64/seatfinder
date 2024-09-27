@@ -7,8 +7,8 @@ document.getElementById("search").addEventListener("input", function() {
     // Check for partial matches
     if (stadiumName.includes("mcdonald jones")) {
         resultsContainer.innerHTML = `
-            <div><a class="seat-button" href="mdj_newcastle/seatA1.html">Seat 1</a></div>
-            <div><a class="seat-button" href="mdj_newcastle/seatA2.html">Seat 2</a></div>
+            <div><a class="seat-button" href="seatA1.html">Seat 1</a></div>
+            <div><a class="seat-button" href="seatA2.html">Seat 2</a></div>
         `;
     } else if (stadiumName.includes("stadium b")) {
         resultsContainer.innerHTML = `
