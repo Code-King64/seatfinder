@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SeatFinder | Choose a Seat</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-</div>
-<div class="hero">
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href=>Find a seat</a>
+        <a href="#contact">Add a seat</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="hero">
         <h1>SeatFinder</h1>
-    
         <h2>The revolutionary way to find your seat's view, in any stadium, any place, at any time</h2>
-</div>    
+    </div>
+
+    <div class="search-bar">
+        <input id="search" type="search" placeholder="&#x1F50D; Which stadium?" />
+    </div>
+
+    <main class="container">
+        <div class="search-display"></div> <!-- Container for displaying results -->
+        <div class="posts-container"></div>
+    </main>    
 </body>
 </html>
